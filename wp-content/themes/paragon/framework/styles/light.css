@@ -1,0 +1,105 @@
+/*Alternate Style - Light*/
+
+
+body {
+	background:#fff !important;
+}
+
+.full-header {
+	background:url(images/light-bk.png);
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 50px;
+	
+}
+
+.full-top-menu {
+	background: url(images/light-menu-bk.png)!important;
+	height: 52px
+}
+
+.header-fade, .footer-fade {
+	background: none;
+}
+
+.full-bottom, .full-footer {
+	background:url(images/light-bk.png) !important;
+}
+
+h1.tagline-option {
+	color: #444;
+	text-shadow: 0px 1px 0px #fff !important;
+}
+
+#bottom-tagline.g960, li.recentcomments, .g240 ul li, #bottom.g960 {
+	background: url(images/light-line.png)bottom repeat-x !important;
+}
+
+p.tag-bottom {
+	color: #444 !important;
+	text-shadow: 0px 1px 0px #fff !important;
+	}
+	
+
+
+#bottom.g960 ul li a, p.footer {
+	color: #666;
+}
+
+#bottom.g960 ul li a:hover {
+		color: #25708c
+
+}
+
+#bottom.g960 ul li {
+	color: #999;
+	
+}
+
+#bottom.g960 h1.title {
+	color: #444;
+	text-shadow: 0px 1px 0px #fff !important;
+}
+
+.hr {
+		background: transparent url(images/light-line.png) repeat-x center left !important;
+
+}
+
+.tweetbox p {
+	color: #444 !important;
+		text-shadow: 0px 1px 0px #fff !important;
+
+}
+.tweetbox span a{
+			text-shadow: 0px 1px 0px #fff !important;
+
+}
+
+ul.flickr li {
+	background: none !important;
+}
+.footer-fade, .fade { display: none;}
+
+.tagline-wrap { display: none;}
+
+.fade { display: none;}
+
+span.tip, h2.title span { background: #fff;}
+
+#port.full-header { margin-bottom: 40px;}
+
+ol.commentlist li{	background:url(images/light-bk.png) !important;}
+
+#comments.hr { display: none;}
+h3#comments { margin-top: 50px;}
+ul.children li { background: #fff !important;}
+
+#respond { margin-top: 80px;border: none !important; background: none;}
+
+.full-bottom-no-twitter #bottom.g960 { padding-top: 50px;}
+
+.full-bottom-no-twitter { background: none !important; }
+
+.full-footer {
+	border-top: 1px solid #ddd;
+}
