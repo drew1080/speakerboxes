@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <script src="./js/jquery-1.7.2.min.js" language="javscript" type="text/javascript"></script>
+        <title>Banglalion Recharge Point</title>
+    </head>
+    <style type="text/css">
+        body{ 
+            margin:0px; 
+            background:#666666; 
+            font-size:12px; 
+            font-family:Verdana;
+            overflow: hidden;
+        }
+
+        ul#bl_links{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul#bl_links li{               
+            background: url("./files/1313656308_arrow-curve-000-left.png") 2px 2px no-repeat;
+            padding-left: 25px;
+            list-style-position: inside;
+            margin-bottom: 10px;
+        }
+
+        ul#bl_links li a:link,ul#bl_links li a:visited{
+            text-decoration: none;
+            color: #d45a5a;
+            font-size: 14px;
+        }
+
+        ul#bl_links li a:hover{
+            text-decoration: underline;
+        }
+        .cont_left{
+            widht:50%;
+        }
+        .cont_left div{
+            background: url("./files/BCL_logo.png") top left no-repeat;
+            min-height: 270px;
+            margin-left: 130px;
+        }
+        
+        .cont_left div img{
+            float: right;
+            margin-top: 20px;
+            border: none;
+            margin-right: 12px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#inner_table').css({'height':($(window).height()-$('#header').height()-$('#footer').height())+'px'});
+        });
+    </script>
+    <body>
+        <div style="width:80%; overflow-x:hidden; text-align: center;margin: 0 auto; ">
+            <table cellpadding="0" cellspacing="0" style="width:100%; text-align: left; border: none;">
+                <tr id="header">
+                    <td>
+                        <div style="width:auto; height:auto"> 
+                            <img src="files/BCL_logo1.png"  height="126" width="10%"/><img src="files/topbanners.png"  height="127" width="90%" /> 
+                        </div>
+                    </td>
+                </tr>
+                <tr bgcolor="#FFFFCC">
+                    <td><table id="inner_table" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td width="30%" class="cont_left">
+                                    <div>
+                                        <img src="files/4G-Logo.gif" width="64" height="64"/>          
+				    </div>
+                              </td>
+                                <td width="70%" colspan="4" style="width:50%;">
+                                    <ul id="bl_links">
+                                        <li>
+                                            <a href="http://care.banglalionwimax.com">
+                                                Recharge Your Banglalion Acccount
+                                            </a>
+                                        </li>
+					<li><a href="" >Purchase Scratch Cards Using Electronic Way(VISA/Master/Nexus/Brack Bank ATM)</a>
+						 <ul>
+						   <li><a href="https://easy.com.bd/blioncard_wimax.php" >Buy Through EASY</a></li>
+						   <li><a href="http://paypoint.com.bd/banglalion/" >Buy Through PAYPOINT</a></li>
+					   </ul></li>
+                                        <li>
+                                            <a href="http://www.banglalionwimax.com">
+                                                Visit Banglalion Communications Ltd
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://tticket.banglalionwimax.com">
+                                                Let Us Know Your Complaints or Feedback
+                                            </a>
+                                        </li>
+                                    </ul>
+                              </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr id="footer">
+                    <td bgcolor="#FFE401" height="70" valign="middle"><span style="float: right; margin-right:10px;"> Copyright © 2007 Banglalion. All Rights Reserved. </span></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

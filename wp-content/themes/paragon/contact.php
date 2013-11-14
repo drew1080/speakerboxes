@@ -11,7 +11,7 @@ Template Name: Contact
 	<div class="main">
 		
 		<div id="header-image">
-			<a href="<?php echo home_url()?>"><img src="<?php echo "/mixedpaintmurals/wp-content/themes/paragon/framework/images/mixed-paint-murals-logo.png" ?>" /></a>
+			<a href="<?php echo home_url()?>"><img src="<?php echo "/mixedpaintmurals/wp-content/themes/paragon/framework/images/speakerboxes-logo.png" ?>" /></a>
 		</div>
 
 	<!-- END .main -->

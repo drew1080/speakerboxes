@@ -1,0 +1,26 @@
+.star{
+width:18px;
+height: 18px;
+float: left;
+display: block;
+text-indent: -99999;
+background: transparent url(../../images/star.png) center center no-repeat;
+color: transparent;
+}
+.star:hover,.star_on{
+width:18px;
+height: 18px;
+float: left;
+display: block;
+text-indent: -99999;
+color: transparent; 
+background: transparent url(../../images/star_on.png) center center no-repeat;
+}
+
+#rating_area{
+   padding:10px; 
+}
+
+.clear{
+    clear:both;
+}

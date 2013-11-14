@@ -1,0 +1,40 @@
+/* 
+	Important styles - (used by this app and must be included in own stylesheet ) 
+*/
+.tweet_rotator { overflow: hidden; position: relative; margin-bottom: 30px !important; }
+.tweet_holder { position: relative;}
+.tweetparent { overflow: hidden;  }
+.tweetbox { display: block;  padding-top: 20px; padding-bottom: 0;  text-align: center; width: 920px !important; }
+.tweet_rotator ul.nav {left: 47%;  position: absolute;bottom: -5px;}
+.tweet_rotator ul.nav li { cursor: pointer; width: 20px; height: 20px; background-image: url(sprite2.png); background-repeat: no-repeat; display: block; }
+.tweet_rotator ul.nav li.active { background-position: 0px -20px; }
+
+/* 
+	General app styling 
+*/
+
+#tweet, #tweet_vert, #tweet_nocolor { width: 920px; height: 150px; margin: auto; margin-bottom: 20px;  }
+.tweetbox span { font-family: 'Droid Sans', serif; font-size: 12px; color: #888; }
+.tweetbox span a { 	text-shadow: 1px 1px 1px #000;color: #7cb2d6; text-decoration: none; }
+.tweet-img {
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.twitter {
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -29px;
+}
+.tweetbox p { padding-top: 15px; font-family: 'Droid Sans', serif; font-size: 14px; color: #fcfcfc; font-weight: normal; letter-spacing: 0.010em; line-height: 36px; padding-bottom: 10px;text-shadow: 1px 1px 1px #000; word-spacing: 0.04em; }
+.tweetbox p a { color: #7cb2d6; }
+.tweetbox em { font-family: 'Droid Sans', serif;font-size: 11px; color: #888; font-style: normal;  }
+
+    
+/* Alternative colors */
+.color_alt_1 	{ background-color: none; } /* Base color, and so on */
+.color_alt_2 	{ background-color: none; }
+.color_alt_3 	{ background-color:none; }
+.color_alt_4 	{ background-color: none; }
+.color_alt_5 	{ background-color: #none; }
+.color_alt_6 	{ background-color: #none; }

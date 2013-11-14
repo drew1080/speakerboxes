@@ -1,0 +1,124 @@
+#accordion-wrap a {
+	text-decoration: none;
+}
+
+#accordion-wrap {
+	background: url("../images/content-bg.png") repeat-y center top;
+	width: 900px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background: #fcfcfc !important;
+}
+
+.kwicks {
+	/* recommended styles for digicordian ul container */
+	list-style: none;
+	position: relative;
+	padding: 0;
+	width: 940px;
+	height: 290px;
+}
+
+.kwicks  {
+	display: block;
+}
+
+.kwicks  li {
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 180px;
+	height: 290px;
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 0; /*Set to same as spacing option. */	
+	float: left;
+	
+}
+.kwicks.vertical li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 0; /*Set to same as spacing option. */	
+}	
+
+#accordion-wrap h4.title-kwicks {
+	background: url("../images/kwicks-bg.png") repeat scroll left top transparent;
+	margin-bottom: 0;
+    bottom: 0;
+	width: 770px;
+	color: #fcfcfc;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 50;
+}
+
+ul.kwicks img {
+	background: url(../images/progress.gif) no-repeat center center;
+}
+
+ul.kwicks p {
+    bottom: -2px;
+	width: 300px;
+	color: #666;
+    height: 40px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 50;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#accordion-wrap .kwicks-title h2 {
+    color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 12pt;
+}
+
+#accordion-wrap .kwicks-alt { display: none }
+
+#accordion-wrap .kwicks-alt:hover {
+	color: #ffffff;
+	background: url("../images/kwicks-bg.png") repeat scroll left top transparent;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    z-index: 50;
+}
+
+#accordion-wrap .kwicks-alt h3 {
+    display: block;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 28pt;
+	margin-bottom: 15px;
+}
+
+#accordion-wrap .kwicks-alt p { color: #ffffff; font-size: 13px; }
+
+#accordion-wrap .kwicks span.shadow { 
+	background:#fff url("../images/sliders/accordion/shadow.png") top left no-repeat;
+	width: 5px;
+	height: 290px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}

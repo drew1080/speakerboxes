@@ -1,0 +1,1739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpmarketplace\n"
+"POT-Creation-Date: 2013-08-26 23:06+0600\n"
+"PO-Revision-Date: 2013-08-26 23:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: F:\\xampp\\htdocs\\wp_ziku\\wp-content\\plugins"
+"\\wpmarketplace\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: F:\\xampp\\htdocs\\wp_ziku\\wp-content\\plugins"
+"\\wpmarketplace\n"
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:26
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:71
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout.php:17
+msgid "No item in cart."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:26
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:71
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout.php:17
+msgid "Continue shopping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:28
+msgid "Clicke here to view cart details"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:88
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:83
+msgid "Title:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:161
+msgid "Delete cart item"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:166
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:42
+msgid "Subtotal:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:168
+msgid "View Cart"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/widget.php:168
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:46
+msgid "Checkout"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:73
+msgid "Failed to create product dir autometically. You have to create the dir "
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:73
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:78
+msgid "manually."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:78
+msgid ""
+"Failed to create product image dir autometically. You have to create the dir "
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:135
+msgid ""
+"upload your icons on '/wp-content/plugins/wpmarketplace/images/icons/' using "
+"ftp"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:148
+msgid "Pricing & Discounts"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:149
+msgid "Icon"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:150
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/settings.php:83
+msgid "Tax"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:151
+msgid "Weight and Dimension"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:156
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/settings.php:82
+msgid "Stock"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:171
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:505
+msgid "Weight"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:172
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:506
+msgid "Width"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:173
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:507
+msgid "Height"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:183
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:82
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:84
+msgid "Tax Status"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:184
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:85
+msgid "Taxable"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:185
+msgid "Shipping only"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:186
+msgid "None"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:189
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:38
+msgid "Tax Class"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:195
+msgid "Standard Rate"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:212
+msgid "Manage Stock"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:214
+msgid "Stock Quantity"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:404
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:6
+msgid "Featured Products"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:405
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payouts.php:58
+msgid "Payouts"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:406
+msgid "Orders &lsaquo; Marketplace"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:406
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:5
+msgid "Orders"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:407
+msgid "Settings &lsaquo; Marketplace"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:407
+msgid "Settings"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:408
+msgid "Themes &lsaquo; Marketplace"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:408
+msgid "Themes"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:409
+msgid "Add Ons &lsaquo; Marketplace"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:409
+msgid "Add Ons"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:410
+msgid "Product Report &lsaquo; Marketplace"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:477
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:536
+msgid "Username is Empty!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:541
+msgid "Invalid Email Address!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:582
+msgid "Email already exists."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:587
+msgid "User already exists."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:821
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:29
+msgid "Allowed Files"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:900
+msgid "Profile Updated Successfully"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/wpmarketplace.php:903
+msgid "Confirm Password Not Matched. Profile Update Failed!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/cart.php:347
+msgid "Order status updated"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/cart.php:353
+msgid "Payment status updated"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/cart.php:361
+msgid "function not defined!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:21
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:95
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:227
+msgid "Prices"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:57
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:125
+msgid "in all prices"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:65
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:133
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/functions.php:327
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/functions.php:336
+msgid "Add to Cart"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/class.html.php:108
+msgid "Regular Price"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:9
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_my-products.php:138
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:75
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:77
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:117
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:146
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:148
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:5
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:69
+msgid "Title"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:10
+msgid "Author"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:11
+msgid ""
+"<span class=\"vers\"><div title=\"Comments\" class=\"comment-grey-bubble\"></"
+"div></span>"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:12
+msgid "Sales Quantity"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:13
+msgid "Total Sales"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:14
+msgid "Sales Graph"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_column.php:15
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:215
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:40
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:41
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:19
+msgid "Date"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:14
+msgid "Customer Billing Address"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:19
+msgid "Billing First Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:23
+msgid "Enter your billing first name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:29
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:170
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:29
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:132
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:45
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:152
+msgid "Last Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:33
+msgid "Enter your billing last name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:39
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:180
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:35
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:137
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:53
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:158
+msgid "Company Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:43
+msgid "Enter your company name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:49
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:190
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:59
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:163
+msgid "Address Line 1"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:53
+msgid "Enter your billing address line 1."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:59
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:200
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:66
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:169
+msgid "Address Line 2"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:63
+msgid "Enter your billing address line 2."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:69
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:210
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:53
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:152
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:72
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:174
+msgid "Town/City"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:73
+msgid "Enter your billing city name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:79
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:220
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:59
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:157
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:79
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:180
+msgid "Postcode/Zip"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:83
+msgid "Enter your billing post code."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:90
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:230
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:65
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:162
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:86
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:187
+msgid "Country"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:119
+msgid "Enter your billing country name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:126
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:263
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:94
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:190
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:118
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:216
+msgid "State/County"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:130
+msgid "Enter your billing state."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:136
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:98
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:124
+msgid "Email Address"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:140
+msgid "Enter your billing email address."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:146
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:104
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:131
+msgid "Phone"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:150
+msgid "Enter your billing phone number."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:155
+msgid "Customer Shipping Address"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:160
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:23
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:127
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:38
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:146
+msgid "First Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:164
+msgid "Enter your shipping first name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:174
+msgid "Enter your shipping last name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:184
+msgid "Enter your shipping company name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:194
+msgid "Enter your shipping address line 1."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:204
+msgid "Enter your shipping address line 2."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:214
+msgid "Enter your shipping city name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:224
+msgid "Enter your shipping postcode."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:257
+msgid "Enter your shipping country."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/custom_user_info.php:267
+msgid "Enter your shipping state name."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:6
+msgid "Marketplace"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:7
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:71
+msgid "Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:8
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:29
+msgid "Add Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:9
+msgid "Add New Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:10
+msgid "Edit Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:11
+msgid "New Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:12
+msgid "View Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:13
+msgid "Search Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:14
+msgid "No product found"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:15
+msgid "No product found in Trash"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:39
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:49
+msgid "Categories"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:40
+msgid "Category"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:41
+msgid "Search Categories"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:42
+msgid "All Categories"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:43
+msgid "Parent Category"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:44
+msgid "Parent Category:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:45
+msgid "Edit Category"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:46
+msgid "Update Category"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:47
+msgid "Add New Category"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/install.php:48
+msgid "New Category Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:23
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:45
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:20
+msgid "Order ID:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:24
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:19
+msgid "Order Summary"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:25
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:21
+msgid "Order Discount:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:26
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:31
+msgid "Shipping:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:27
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:32
+msgid "Order Total:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:28
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:33
+msgid "Order Date:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:29
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:39
+msgid "Customer ID:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:30
+msgid "Customer Details"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:31
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:40
+msgid "Customer Name:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:32
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:41
+msgid "Customer Email:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:33
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:48
+msgid "Item Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:34
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:5
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:73
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:69
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:48
+msgid "Unit Price"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:35
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:215
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:5
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:40
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:72
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:69
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:48
+msgid "Quantity"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:36
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:133
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:48
+msgid "Discount"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:37
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:48
+msgid "Subtotal"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/print_invoice.php:38
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:75
+msgid "Download"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/product_report.php:47
+msgid "Product Report"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/product_report.php:49
+msgid "Number of Sales Graph"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/product_report.php:55
+msgid "Sales Amount Graph"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/reg-form.php:4
+msgid "Registration Failed!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/reg-form.php:14
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/all_payouts.php:11
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:21
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:58
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/login_form.php:15
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_dues.php:13
+msgid "Username"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/reg-form.php:18
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:25
+msgid "E-mail"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/reg-form.php:21
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/reg-form.php:27
+msgid "Already have account? Login"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:77
+msgid "Add/Edit Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:85
+msgid "Description:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:91
+msgid "Excerpt:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:94
+msgid "Digital Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:210
+msgid "Frontend Demo URL:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:211
+msgid "Admin Demo URL:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:212
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/modules/product-upload.php:99
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/demo.php:15
+msgid "Username:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:213
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/modules/product-upload.php:100
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/demo.php:16
+msgid "Password:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:214
+msgid "Other Demo Info:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:229
+msgid "Variation Options"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:229
+msgid "Pricing"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:231
+msgid "Price:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:232
+msgid "Sales Price:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:233
+msgid "Variation"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:375
+msgid "Featured Image"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:413
+msgid "Remove Featured Image"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:420
+msgid "Additional Images"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:503
+msgid "Dimension"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:513
+msgid "Coupon Discount"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:517
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:5
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:69
+msgid "Coupon Code"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:517
+msgid "Discount(%)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:551
+msgid "Role Based Discount"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:555
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:6
+msgid "Role"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:555
+msgid "Discount (%)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_add-product.php:556
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:7
+msgid "Guest (guest)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:205
+msgid "Sales:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:206
+msgid "Earning:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:207
+msgid "Withdraws:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:208
+msgid "Pending:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:209
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:37
+msgid "Balance:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:209
+msgid "Withdraw"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:215
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:40
+msgid "Item"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:215
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:40
+msgid "Price"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:215
+msgid "Commission"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_earnings.php:215
+msgid "Earning"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_my-products.php:139
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:78
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:36
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:78
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:90
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_dues.php:16
+msgid "Action"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/scode_my-products.php:168
+msgid "You didn't add any product yet!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/stock.php:62
+msgid "Stock not enabled"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:32
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:32
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:50
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:50
+msgid "Enable/Disable:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:32
+msgid "Enable Cashondelivery"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:33
+msgid "Message/Instruction:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:43
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:43
+msgid "Order Completed."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:43
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:43
+msgid "Please wait while redirected."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:32
+msgid "Enable Cheque"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:33
+msgid "Message:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:50
+msgid "Enable Googlecheckout"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:51
+msgid "Googlecheckout Mode:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:52
+msgid "Googlecheckout Merchant ID:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:109
+msgid "Processing...."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:50
+msgid "Enable Paypal"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:51
+msgid "Paypal Mode:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:52
+msgid "Paypal Email:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:53
+msgid "Cancel Url:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:54
+msgid "Return Url:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/modules/additional-preview-images.php:42
+msgid "Browse"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/modules/additional-preview-images.php:144
+msgid "Images"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/modules/product-upload.php:97
+msgid "Demo Site URL:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/modules/product-upload.php:98
+msgid "Demo Admin URL: "
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:20
+msgid "Allowed Countries"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:35
+msgid "Product Page"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:36
+msgid "Auto generate product page contents"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:40
+msgid "When site members add or update a product:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:41
+msgid "Keep Pending for Review"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:41
+msgid "Auto Publish"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:45
+msgid "Cart Page :"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:61
+msgid "Checkout Page :"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:77
+msgid "Members Page :"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:92
+msgid "Orders Page :"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:107
+msgid "Continue Shopping URL:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:111
+msgid "Front-end Marketplace Access:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:112
+msgid "Only selected user roles will be allowed to sell products"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:127
+msgid "Disable plugin CSS from front-end"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/basic_settings.php:130
+msgid "Redirect to shopping cart after a product is added to the cart"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:6
+msgid "Payment Gateways"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:7
+msgid "Your activated payment gateways are listed below."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:12
+msgid "Gateway"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:13
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:28
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/all_payouts.php:13
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_dues.php:15
+msgid "Status"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:30
+msgid "Active"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:30
+msgid "Inactive"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:44
+msgid "Payment Methods Configuration"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:67
+msgid "Currency Configuration"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:69
+msgid "Currency"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:78
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:26
+msgid "Default"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:78
+msgid "Currency Code"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:78
+msgid "Currency Symbol"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:88
+msgid "Delete"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:99
+msgid "Currency Code:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/payment_options.php:101
+msgid "Currency Symbol:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/settings.php:74
+msgid "Marketplace Settings"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/settings.php:79
+msgid "Basic Settings"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/settings.php:80
+msgid "Payment Options"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/settings.php:81
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:2
+msgid "Shipping Options"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:6
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:9
+msgid "Shipping calculations"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:12
+msgid "Enable shipping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:17
+msgid "Shipping Methods"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:27
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout.php:28
+msgid "Shipping Method"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:37
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:64
+msgid "Flat Rate"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:46
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:104
+msgid "Free Shipping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:55
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:133
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:135
+msgid "Local Delivery"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:62
+msgid "Shipping Methods Configuration"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:68
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:70
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:110
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:112
+msgid "Enable/Disable"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:71
+msgid "Enable this shipping method"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:78
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:120
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:149
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:88
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:90
+msgid "Default Cost"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:91
+msgid "Cost excluding tax. Enter an amount, e.g. 2.50."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:95
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:97
+msgid "Default Handling Fee"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:98
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:113
+msgid "Enable Free Shipping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:119
+msgid "Method Title"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:124
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:127
+msgid "Users will need to spend this amount to get free shipping."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:136
+msgid ""
+"Local delivery is a simple shipping method for delivering orders locally."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:139
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:141
+msgid "Enable"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:142
+msgid " Enable local delivery"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:153
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:155
+msgid "Fee Type"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:156
+msgid "How to calculate delivery charges"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:160
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:162
+msgid "Fee"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/shipping_options.php:163
+msgid ""
+"What fee do you want to charge for local delivery, disregarded if you choose "
+"free."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:2
+msgid "Stock Options"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:7
+msgid "Manage stock"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:11
+msgid "Enable stock management"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:17
+msgid "Enable Global Low stock (For All Product)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:22
+msgid "Low stock threshold for all product "
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:29
+msgid "Admin notification on low stock threshold"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:35
+msgid "Stock Reduce"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/stock_options.php:38
+msgid "Enable Stock Reduce Automatically"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:2
+msgid "Tax Options"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:7
+msgid "Tax Calculation"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:11
+msgid "Enable tax calculation"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:20
+msgid "Display taxes on cart page"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:24
+msgid "Additional Tax Classes"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:26
+msgid "List 1 per line. This is in addition to the default Standard Rate."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:31
+msgid "Tax Rates"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:37
+msgid "Countries"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:39
+msgid "Label"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:40
+msgid "Rate(%)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/settings/tax_options.php:41
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:134
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:24
+msgid "Shipping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/all_payouts.php:10
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_dues.php:12
+msgid "Userid"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/all_payouts.php:12
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_dues.php:14
+msgid "Amount"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:3
+msgid "Billing and Shipping Info"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:17
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:137
+msgid "Billing Address"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:41
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:142
+msgid "Address"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:47
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:147
+msgid "Address 2"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:109
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/edit-profile.php:138
+msgid "Ship to same address?"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:120
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:138
+msgid "Shipping Address"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/billing.php:198
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:45
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payment_method.php:29
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/shipping_method.php:47
+msgid "Continue"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:5
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:74
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:69
+msgid "Total"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:43
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:111
+msgid "Discount:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:44
+msgid "Total:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:46
+msgid "Continue Shopping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/cart.php:46
+msgid "Update Cart"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout.php:36
+msgid "Payment Method"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout.php:44
+msgid "Order Review"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:8
+msgid "Register / Login"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:14
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/login_form.php:30
+msgid "Register"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:15
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:40
+msgid "Register with us for future convenience:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:30
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:63
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/login_form.php:19
+msgid "Password"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:39
+msgid "Register and save time!"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:42
+msgid "Fast and easy check out"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:43
+msgid "Easy access to your order history and status"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:49
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:55
+msgid "Login"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:50
+msgid "if you arelady have an account login here:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:68
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/login_form.php:23
+msgid "Remember Me"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:71
+msgid "Log In"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/checkout_method.php:75
+msgid "Forgot password?"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:30
+msgid "Withdraw request"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:30
+msgid "Withdraw request submitted successfully."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:37
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:8
+msgid "Total Sales:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:37
+msgid "Total Withdraws:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:37
+msgid "usd"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:37
+msgid "saving..."
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/earnings.php:40
+msgid "License"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:18
+msgid "Product:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:19
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:76
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:88
+msgid "Start Date"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:21
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:77
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:89
+msgid "End Date"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:74
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:86
+msgid "ID"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:75
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:87
+msgid "Product Title"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:131
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:131
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:152
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:153
+msgid "Search"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:157
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:158
+msgid "Posts"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/featured_products.php:159
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:160
+msgid "Pages"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/login_form.php:29
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/remind_password.php:4
+msgid "Forgot Password?"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:42
+msgid "from"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:43
+msgid "to"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:49
+msgid "order(s) found"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:62
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:75
+msgid "Order ID"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:63
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:76
+msgid "Total Amount"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:64
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:77
+msgid "Customer Name"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:65
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:78
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:70
+msgid "Order Status"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:66
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:79
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:20
+msgid "Payment Status"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:67
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:80
+msgid "Order Date"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:117
+msgid "&laquo;"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:118
+msgid "&raquo;"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders.php:148
+msgid "Find Posts or Pages"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:18
+msgid "Order Id"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:69
+msgid "Order Details"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:135
+msgid "Customer details"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:136
+msgid "Email"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:139
+msgid "If you still want to complete this order:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/orders_purchases.php:140
+msgid "Pay Now"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:44
+msgid "Grand Total:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:108
+msgid "Cart Subtotal:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:125
+msgid "Order Notes"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:128
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payment_method.php:28
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/shipping_method.php:46
+msgid "Back"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/order_review.php:128
+msgid "Place Order"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payouts.php:63
+msgid "All Payouts"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payouts.php:64
+msgid "Dues"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payouts.php:65
+msgid "Payout Settings"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_dues.php:8
+msgid "Balance"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:2
+msgid "Comissions"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:6
+msgid "comission (%)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:21
+msgid "Payout Duration"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:24
+msgid "Duration of payout to mature :"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/payout_settings.php:24
+msgid "Days"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/post_form.php:326
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/post_form.php:418
+msgid "Select files to upload:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/remind_password.php:6
+msgid "Username or E-mail:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/shipping_method.php:6
+msgid "Select Shipping"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/user-menu.php:5
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:26
+msgid "Dashboard"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/user-menu.php:6
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:28
+msgid "My Products"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/user-menu.php:7
+msgid "Add new Product"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/user-menu.php:8
+msgid "My Earnings"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/user-menu.php:9
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:34
+msgid "Edit Profile"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:16
+msgid "Message"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:38
+msgid "Customer Info"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:45
+msgid "Order Items"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:104
+msgid "Order Status:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/view-order.php:113
+msgid "Payment Status:"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:30
+msgid "Earnings"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:32
+msgid "Affiliate"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/wpmp_frontend.php:33
+msgid "My Orders"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/metaboxes/pricing.php:14
+msgid "Base Price"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/metaboxes/pricing.php:16
+msgid ""
+"If product has a discounted price which is lower then regular price (base "
+"price)"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/metaboxes/pricing.php:16
+msgid "Sales Price"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/content.php:8
+msgid "Description"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/demo.php:11
+msgid "Front-end"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/demo.php:11
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/demo.php:14
+msgid "Enter"
+msgstr ""
+
+#: F:\xampp\htdocs\wp_ziku\wp-content\plugins\wpmarketplace/tpls/product/views/demo.php:14
+msgid "Admin"
+msgstr ""

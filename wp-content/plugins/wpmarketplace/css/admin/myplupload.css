@@ -1,0 +1,67 @@
+.filelist {
+    width: 60%;
+}
+.filelist .file {
+    padding: 5px;
+    background: #ececec;
+    border: solid 1px #ccc;
+    margin-bottom: 4px;
+}
+.filelist .fileprogress {
+    width: 0%;
+    background: #B7C53D;
+    height: 5px;
+}
+.plupload-thumbs {
+ 
+}
+.plupload-thumbs .thumb {
+    width: 50px;
+    padding-right: 5px;
+    float: left;
+}
+.plupload-thumbs .thumb img {
+    width: 50px;
+    height: 50px;
+}
+.ui-sortable  .thumb img {
+    cursor: pointer;
+}
+
+.remove_fea{
+    cursor: pointer;
+}
+
+.currency_table,.currency_table tr{
+    border: 1px solid #ccc;
+}
+input[type="text"].currency_name{width: 150px;}
+input[type="text"].currency_symbol{width: 50px;}
+
+#listbox {
+    height: 150px;
+    overflow-y: scroll;
+    width:322px;
+    background:#eee;
+    padding:5px;
+    border: 1px solid #ccc;
+    
+}
+
+li.pim{
+    width:55px;
+}
+
+.listbox1 {
+    height: 80px;
+    overflow-y: scroll;
+    width:322px;
+    background:#eee;
+    padding:5px;
+    border: 1px solid #ccc;
+    
+}
+
+/*li.pim{
+    width:55px;
+}*/

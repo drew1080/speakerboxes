@@ -13,7 +13,7 @@ Template Name: About
 		  <h2><?php echo get_the_title(); ?></h2>
 		</div>
 		<div id="header-image">
-			<a href="<?php echo home_url()?>"><img src="<?php echo get_template_directory_uri() . "/framework/images/david-cobb-murals-logo.png" ?>" /></a>
+			<a href="<?php echo home_url()?>"><img src="<?php echo get_template_directory_uri() . "/framework/images/speakerboxes-logo.png" ?>" /></a>
 		</div>
 
 	<!-- END .main -->

@@ -1,0 +1,99 @@
+version 1.4 ( updated 02-04-2013 )
+- Fixed slider issues in IE10, Opera and iOS
+- Centered the slider image
+	* js/jquery.flexslider-min.js
+	* js/custom.js
+	* style.css
+- Fixed border radius on images in Opera
+- Fixed pricing table more button width in Chrome
+- Fixed 'slighly shaking elements' bug 
+	* style.css
+- Removed wrong options from ePanel
+	* epanel/options_nimble.php
+- Fixed extra breadcrumbs on 404 page
+	* 404.php
+- Fixed post meta information strings in the german translation
+	* lang/de_DE.po
+	* lang/de_DE.mo
+- Corrected issue with placeholder text removal before comment form submission
+- Fixed scrolling slider issue on iOS
+- Fixed 'Shortcode Slideshow Only Displays 11 Images' issue
+- Added alt attribute to the imagetab shortcode
+- Fixed update notification notice in WP-Admin
+- Fixed image issues with clean WordPress Multisite 3.5 installation
+- Added et_videolink_embed custom field ( it provides the way to use video embed code for posts in the Portfolio page template )
+- Improved ePanel functionality
+- Improvement: Contact form error notifications are translatable via localization files now
+- Code improvements
+	* 404.php
+	* changelog.txt
+	* epanel/core_functions.php
+	* epanel/custom_functions.php
+	* epanel/import_settings.php
+	* removed epanel/js/jquery-ui.min.js
+	* removed epanel/js/jquery.form.js
+	* epanel/options_nimble.php
+	* epanel/page_templates/js/et-ptemplates-frontend.js
+	* epanel/page_templates/page_templates.php
+	* epanel/shortcodes/js/et_shortcodes_frontend.dev.js
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+	* epanel/shortcodes/shortcodes.php
+	* functions.php
+	* home.php
+	* includes/additional_functions.php
+	* includes/breadcrumbs.php
+	* includes/entry-portfolio.php
+	* includes/entry.php
+	* includes/featured.php
+	* includes/widgets/widget-about.php
+	* includes/widgets/widget-ads.php
+	* includes/widgets/widget-adsense.php
+	* includes/widgets/widget-customlogo.php
+	* includes/widgets/widget-search.php
+	* js/custom.js
+	* js/jquery.flexslider-min.js
+	* lang/de_DE.mo
+	* lang/de_DE.po
+	* lang/en_US.mo
+	* lang/en_US.po
+	* lang/ru_RU.mo
+	* lang/ru_RU.po
+	* loop-page.php
+	* loop-single.php
+	* page-blog.php
+	* page-contact.php
+	* page-gallery.php
+	* page-login.php
+	* page-search.php
+	* page-sitemap.php
+	* page-template-portfolio.php
+	* style.css
+
+version 1.3 ( updated 12-06-2012 )
+- Updated image resizing to utilize WP_Image_Editor object, available in WordPress 3.5 ( http://make.wordpress.org/core/2012/12/06/wp_image_editor-is-incoming/ )
+	* epanel/custom_functions.php
+
+version 1.2 ( updated 12-04-2012 )
+- Fixed ePanel active tab issue in WordPress 3.5
+	* epanel/css/panel.css
+- Bumped version number
+	* style.css
+
+version 1.1 ( updated 10-21-2012 )
+- Fixed portfolio images description on iPhone and iPad
+	* js/custom.js
+	* style.css
+- Removed 'Featured Slider Animation' option in ePanel
+	* includes/featured.php
+	* epanel/options_nimble.php
+- Fixed featured image size on fullwidth pages
+	* loop-page.php
+- Fixed slider with one slide issue
+	* js/custom.js
+- Fixed text rendering on Mac
+- Bumped version number
+	* style.css
+
+version 1.0
+
+- initial release

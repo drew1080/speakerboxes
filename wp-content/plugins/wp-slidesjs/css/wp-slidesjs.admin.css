@@ -1,0 +1,46 @@
+dt {
+	margin-top: 2em;
+	font-weight:bold;
+}
+
+dd {
+
+}
+fieldset {
+	display:block;
+	margin:0 1% 0 1%;
+	clear:none;
+}
+
+legend {
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	font-size:130%;
+	padding-top:3em;
+}
+
+.default {
+	display:block;
+	padding-left: 1em;
+	font-size:90%;
+	color:#666;
+}
+
+.description {
+	display:block;
+}
+
+.grid50 {
+	float:left;
+	display:block;
+	text-align:left;
+	margin:0 1% 0 1%;
+	clear:none;
+	width:48%;
+}
+
+.button-full {
+	clear:both;
+	margin-top:2em;
+}

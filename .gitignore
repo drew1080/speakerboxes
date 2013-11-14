@@ -2,10 +2,6 @@
 docs/
 *.tmproj
 wp-config.php
-wp-*.php
-xmlrpc.php
-wp-admin/
-wp-includes/
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
@@ -19,3 +15,4 @@ sitemap.xml.gz
 readme.html
 license.txt
 .DS_Store
+*.log

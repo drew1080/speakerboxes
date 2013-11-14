@@ -1,0 +1,25 @@
+.wpre-toolbar{
+     padding:5px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.wpre-toolbar ul{    
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wpre-toolbar li{
+    float: left;
+    padding-left: 20px;
+    line-height: 22px;
+    margin: 0px 10px;    
+}
+.wpre-toolbar li.asc{
+    background: url('../../images/sort_asc.png') left center no-repeat;    
+}.wpre-toolbar li.desc{
+    background: url('../../images/sort_dsc.png') left center no-repeat;    
+}
