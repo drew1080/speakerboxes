@@ -17,3 +17,5 @@ license.txt
 .DS_Store
 *.log
 wp-content/updraft/
+wp-content/themes/Gleam/sampledata/
+wp-content/backupwordpress-5b1e7e33cc-backups/
