@@ -4,7 +4,7 @@ Plugin Name: UpdraftPlus - Backup/Restore
 Plugin URI: http://updraftplus.com
 Description: Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.
 Author: UpdraftPlus.Com, DavidAnderson
-Version: 1.7.39
+Version: 1.7.40
 Donate link: http://david.dw-perspective.org.uk/donate
 License: GPLv3 or later
 Text Domain: updraftplus
@@ -17,13 +17,18 @@ TODO - some of these are out of date/done, needs pruning
 // Change add-ons screen, to be less confusing for people who haven't yet updated but have connected
 // Change migrate window: 1) Retain link to article 2) Have selector to choose which backup set to migrate - or a fresh one 3) Have option for FTP/SFTP/SCP despatch 4) Have big "Go" button. Have some indication of what happens next. Test the login first. Have the remote site auto-scan its directory + pick up new sets. Have a way of querying the remote site for its UD-dir. Have a way of saving the settings as a 'profile'. Or just save the last set of settings (since mostly will be just one place to send to). Implement an HTTP/JSON method for sending files too.
 // Place in maintenance mode during restore - ?
+// Dates in the progress box are apparently untranslated
+// Add-on descriptions are not internationalised
 // http://www.phpclasses.org/package/8269-PHP-Send-MySQL-database-backup-files-to-Ubuntu-One.html
-// The active jobs updater needs to not rely on re-scheduling itself (because when connection breaks, that's it until page reload)
-// Test restores via cloud service for small $??? (Relevant: http://browshot.com/features)
+// Put the -old directories in updraft_dir instead of present location. Prevents file perms issues, and also will be automatically excluded from backups.
+// Backup to Dropbox; delete in Dropbox; try to download in UD: doesn't tell you the file isn't there.
+// Update updates checker so that it checks for updates on a sliding-scale: those who've not updated in last X only end up checking every Y : https://github.com/YahnisElsts/plugin-update-checker/issues/9
+// Add feature in Backup Now to skip cloud despatch for this backup
+// Test restores via cloud service for small $??? (Relevant: http://browshot.com/features) (per-day? per-install?)
 // Add more info to email - e.g. names + sizes + checksums of uploads + locations. Make the report beautiful!
 // Warn/prevent if trying to migrate between sub-domain/sub-folder based multisites
 // Don't perform pruning when doing auto-backup?
-// Update updates checker so that it checks for updates on a sliding-scale: those who've not updated in last X only end up checking every Y
+// Pre-check the search/replace box if migration detected
 // Can some tables be omitted from the search/replace on a migrate? i.e. Special knowledge?
 // Put a 'what do I get if I upgrade?' link into the mix
 // Add to admin bar (and make it something that can be turned off)
@@ -37,6 +42,7 @@ TODO - some of these are out of date/done, needs pruning
 // Show 'Migrate' instead of 'Restore' on the button if relevant
 // Test with: http://wordpress.org/plugins/wp-db-driver/
 // Backup notes
+// Automatically re-count folder usage after doing a delete
 // Exclude by default: uploads/wp-clone
 // Switch zip engines earlier if no progress - see log.cfd793337563_hostingfails.txt
 // The delete-em at the end needs to be made resumable. And to only run on last run-through (i.e. no errors, or no resumption)
@@ -731,13 +737,13 @@ class UpdraftPlus {
 		$pfile = md5(time().rand()).'.tmp';
 		file_put_contents($updraft_dir.'/'.$pfile, "[mysqldump]\npassword=".DB_PASSWORD."\n");
 
+		$result = false;
 		foreach (explode(',', UPDRAFTPLUS_MYSQLDUMP_EXECUTABLE) as $potsql) {
 			if (!@is_executable($potsql)) continue;
 			if ($logit) $this->log("Testing: $potsql");
 
 			$exec = "cd ".escapeshellarg($updraft_dir)."; $potsql  --defaults-file=$pfile --max_allowed_packet=1M --quote-names --add-drop-table --skip-comments --skip-set-charset --allow-keywords --dump-date --extended-insert --where=option_name=\\'siteurl\\' --user=".escapeshellarg(DB_USER)." --host=".escapeshellarg(DB_HOST)." ".DB_NAME." ".escapeshellarg($table_name)." >$tmp_file";
 
-			$result = false;
 			$handle = popen($exec, "r");
 			if ($handle) {
 				while (!feof($handle)) {
@@ -989,7 +995,46 @@ class UpdraftPlus {
 		return false;
 	}
 
+	public function php_error($errno, $errstr, $errfile, $errline) {
+
+		if (0 == error_reporting()) return true;
+
+		switch ($errno) {
+			case 1:     $e_type = 'E_ERROR'; break;
+			case 2:     $e_type = 'E_WARNING'; break;
+			case 4:     $e_type = 'E_PARSE'; break;
+			case 8:     $e_type = 'E_NOTICE'; break;
+			case 16:    $e_type = 'E_CORE_ERROR'; break;
+			case 32:    $e_type = 'E_CORE_WARNING'; break;
+			case 64:    $e_type = 'E_COMPILE_ERROR'; break;
+			case 128:   $e_type = 'E_COMPILE_WARNING'; break;
+			case 256:   $e_type = 'E_USER_ERROR'; break;
+			case 512:   $e_type = 'E_USER_WARNING'; break;
+			case 1024:  $e_type = 'E_USER_NOTICE'; break;
+			case 2048:  $e_type = 'E_STRICT'; break;
+			case 4096:  $e_type = 'E_RECOVERABLE_ERROR'; break;
+			case 8192:  $e_type = 'E_DEPRECATED'; break;
+			case 16384: $e_type = 'E_USER_DEPRECATED'; break;
+			case 30719: $e_type = 'E_ALL'; break;
+			default:    $e_type = "E_UNKNOWN ($errno)"; break;
+		}
+
+		if (!is_string($errstr)) $errstr = serialize($errstr);
+
+		if (0 === strpos($errfile, ABSPATH)) $errfile = substr($errfile, strlen(ABSPATH));
+
+		$logline = "PHP event: code $e_type: $errstr (line $errline, $errfile)";
+
+		$this->log($logline);
+
+		# Pass it up the chain
+		return false;
+
+	}
+
 	public function backup_resume($resumption_no, $bnonce) {
+
+		set_error_handler(array($this, 'php_error'), E_ALL & ~E_STRICT);
 
 		$this->current_resumption = $resumption_no;
 
@@ -1245,6 +1290,8 @@ class UpdraftPlus {
 		$this->log("Resume backup ($bnonce, $resumption_no): finish run");
 		if (is_array($our_files)) $this->save_last_backup($our_files);
 		$this->backup_finish($next_resumption, true, true, $resumption_no);
+
+		restore_error_handler();
 
 	}
 
