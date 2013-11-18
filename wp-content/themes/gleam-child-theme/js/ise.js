@@ -18,12 +18,14 @@ function validateForm(e) {
   var form_valid = true;
   jQuery(e.target).parents('form').find('select').each(function () {
     if (jQuery(this).find(":selected").val() == "*") {
-      jQuery(this).after('<span style="color:red"> ** Please Select **</span>');
+      jQuery(this).after('<span class="form-errors" style="color:red"> ** Please Select **</span>');
       form_valid = false;
     }
   });
   
   if ( !form_valid ) {
     e.preventDefault();
+  } else {
+    jQuery('.form-errors').html('');
   }
 }
